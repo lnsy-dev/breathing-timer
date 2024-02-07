@@ -1,4 +1,4 @@
-# Breathing Timer
+# Breathing Timer Element
 
 ## Overview
 
@@ -65,3 +65,5 @@ to build the code.
 
 This will create the breathing-timer.min.js in the root directory. 
 
+# Hire Me
+Need humane technology? https://lnsy.dev/
