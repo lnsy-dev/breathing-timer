@@ -63,5 +63,5 @@ npm run build
 
 to build the code. 
 
-This will create a dist/ folder with the breathing-timer.min.js in it. 
+This will create the breathing-timer.min.js in the root directory. 
 
