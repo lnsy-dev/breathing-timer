@@ -59,7 +59,6 @@ Run
 
 ```
 npm run build
-
 ```
 
 to build the code. 
