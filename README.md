@@ -4,6 +4,9 @@
 
 A custom HTML pop-over that prevents the user from interacting with the page for 1 minute while encouraging them to breath mindfully. Great to break addictive loops on websites.
 
+## Demo
+https://lnsy-dev.github.io/breathing-timer/
+
 ## Why
 
 When I quit drinking 8 years ago the single best book I read for it was **Hooked: How to Build Habit-Forming Products** by Nir Eyal. A lot of the best research about addiction has been generated and utilized by people trying to figure out how to make the internet more addictive. This is of course perverse and cruel. 
