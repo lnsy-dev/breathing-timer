@@ -3,32 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Vanilla JS / CSS boilerplate for generating JS and CSS libraries in plain CSS, JS, and HTML. Created by LNSY.">
-  <meta name="keywords" content="Vanilla JS, CSS, boilerplate, library, LNSY">
+  <meta name="description" content="Breathing Timer - Encourage mindful breathing for one minute before engaging with content, helping break addictive loops on websites.">
+  <meta name="keywords" content="mindfulness, breathing exercise, web wellness, focus, relaxation, Vanilla JS, CSS">
   <meta name="author" content="LNSY">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph meta tags for better sharing on social media -->
-  <meta property="og:title" content="Vanilla JS / CSS boilerplate">
-  <meta property="og:description" content="Vanilla JS / CSS boilerplate for generating JS and CSS libraries in plain CSS, JS, and HTML. Created by LNSY.">
-  <meta property="og:image" content="./assets/splash.jpg">
-  <meta property="og:url" content="https://example.com"> <!-- Replace with your actual URL -->
+  <meta property="og:title" content="Mindful Breathing Timer">
+  <meta property="og:description" content="A mindful breathing timer that encourages users to take a one-minute breathing exercise break, promoting relaxation and focus before continuing on the website.">
+  <meta property="og:url" content="https://lnsy-dev.github.io/breathing-timer"> <!-- Replace with the specific URL where the Breathing Timer is featured -->
 
-  <title>Vanilla JS / CSS boilerplate</title>
-  <link rel="stylesheet" type="text/css" href="./styles/index.css">
-  <script src="./src/index.js" type="module"></script>
+  <title>Breathing Timer Element</title>
+  <script src="./breathing-timer.min.js" type="module"></script>
 </head>
 <body>
 
-  <img src="./assets/splash.jpg" alt="Boilerplate Image" style="margin:auto; width:40em; height:auto;">
+  <div id="github-link" style="position: fixed; right: 1em; top:1em; z-index:9002">
+    <a href="https://github.com/lnsy-dev/breathing-timer.git" id="githubLink">
+      <img src="./github-mark-white.png" alt="GitHub Icon" style="width: 24px; height: 24px;">
+    </a>
+  </div>
 
-  <h1>Vanilla JS / CSS boilerplate</h1>
-  <h2>By <a href="https://lnsy.dev/" rel="author">LNSY</a></h2>
-  <custom-html-element></custom-html-element>
+  <breathing-timer></breathing-timer>
 
-  <p>For generating JS and CSS libraries in plain CSS, JS, and HTML.</p>
-
-  <p>For more information, see the README</p>
+  <h1 style="width: 100%; position: fixed; text-align: center; top: 50%;"><a href="https://github.com/lnsy-dev/breathing-timer.git">Git Repository Here</a></h1>
 
 </body>
 </html>
