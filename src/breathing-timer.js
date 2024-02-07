@@ -13,7 +13,7 @@ class BreathingTimer extends HTMLElement {
     this.appendChild(breathing_circle);
 
     const label = document.createElement('div');
-    label.innerText = `Let's breath for 1 minute before we continue`;
+    label.innerText = `Let's breathe for 1 minute before we continue`;
     label.classList.add('breath-label');
     this.appendChild(label);
     setTimeout((e) => {

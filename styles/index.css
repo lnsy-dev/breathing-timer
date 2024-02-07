@@ -17,7 +17,7 @@ breathing-timer {
   }
 
   .breath-circle {
-    animation: scaleAnimation 10s infinite linear;
+    animation: scaleAnimation 10s infinite ease-in;
     position: fixed;
     z-index: 1000;
     border-radius: 50%;
